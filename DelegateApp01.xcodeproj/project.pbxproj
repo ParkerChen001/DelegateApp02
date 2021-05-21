@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		316BF8442657523000447F4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316BF8432657523000447F4C /* AppDelegate.swift */; };
 		316BF8462657523000447F4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316BF8452657523000447F4C /* SceneDelegate.swift */; };
-		316BF8482657523000447F4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316BF8472657523000447F4C /* ViewController.swift */; };
 		316BF84B2657523000447F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316BF8492657523000447F4C /* Main.storyboard */; };
 		316BF84D2657523100447F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316BF84C2657523100447F4C /* Assets.xcassets */; };
 		316BF8502657523100447F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316BF84E2657523100447F4C /* LaunchScreen.storyboard */; };
+		316BF8582657526500447F4C /* FavoriteAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316BF8572657526500447F4C /* FavoriteAnimalViewController.swift */; };
+		316BF85A2657529400447F4C /* SelectAnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316BF8592657529400447F4C /* SelectAnimalViewController.swift */; };
+		316BF85C26575D4C00447F4C /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316BF85B26575D4C00447F4C /* Animal.swift */; };
+		316BF88026578B5B00447F4C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316BF87F26578B5B00447F4C /* TabBarViewController.swift */; };
+		316BF88226578DD400447F4C /* PsychologicalTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316BF88126578DD400447F4C /* PsychologicalTestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		316BF8402657523000447F4C /* DelegateApp01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelegateApp01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		316BF8432657523000447F4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		316BF8452657523000447F4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		316BF8472657523000447F4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		316BF84A2657523000447F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		316BF84C2657523100447F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		316BF84F2657523100447F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		316BF8512657523100447F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316BF8572657526500447F4C /* FavoriteAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteAnimalViewController.swift; sourceTree = "<group>"; };
+		316BF8592657529400447F4C /* SelectAnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAnimalViewController.swift; sourceTree = "<group>"; };
+		316BF85B26575D4C00447F4C /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		316BF87F26578B5B00447F4C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		316BF88126578DD400447F4C /* PsychologicalTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologicalTestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				316BF8432657523000447F4C /* AppDelegate.swift */,
 				316BF8452657523000447F4C /* SceneDelegate.swift */,
-				316BF8472657523000447F4C /* ViewController.swift */,
+				316BF87F26578B5B00447F4C /* TabBarViewController.swift */,
+				316BF8572657526500447F4C /* FavoriteAnimalViewController.swift */,
+				316BF88126578DD400447F4C /* PsychologicalTestViewController.swift */,
+				316BF8592657529400447F4C /* SelectAnimalViewController.swift */,
+				316BF85B26575D4C00447F4C /* Animal.swift */,
 				316BF8492657523000447F4C /* Main.storyboard */,
 				316BF84C2657523100447F4C /* Assets.xcassets */,
 				316BF84E2657523100447F4C /* LaunchScreen.storyboard */,
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316BF8482657523000447F4C /* ViewController.swift in Sources */,
+				316BF88226578DD400447F4C /* PsychologicalTestViewController.swift in Sources */,
+				316BF85A2657529400447F4C /* SelectAnimalViewController.swift in Sources */,
 				316BF8442657523000447F4C /* AppDelegate.swift in Sources */,
+				316BF8582657526500447F4C /* FavoriteAnimalViewController.swift in Sources */,
 				316BF8462657523000447F4C /* SceneDelegate.swift in Sources */,
+				316BF88026578B5B00447F4C /* TabBarViewController.swift in Sources */,
+				316BF85C26575D4C00447F4C /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
